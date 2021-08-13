@@ -14,7 +14,7 @@ const stringArrayToDocumentation = (
 	leadingSpaces = 0
 ): string =>
 	`${['/**', ...input.map((line) => ' * '.concat(line)), ' */'] //adds comment open, stars for each line, and comment close
-		.map((line) => `${' '.repeat(leadingSpaces)}${line}`) //add spaces to beginning of each line
+		.map((line) => `${'\t'.repeat(leadingSpaces)}${line}`) //add spaces to beginning of each line
 		.join('\n')}`; //convert array to one string with new lines between each element
 
 /**

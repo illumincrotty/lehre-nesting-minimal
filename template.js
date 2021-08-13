@@ -21,7 +21,7 @@ exports.generatePropertyDoc = exports.generateFunctionDoc = exports.generateInte
  */
 var stringArrayToDocumentation = function (input, leadingSpaces) {
     if (leadingSpaces === void 0) { leadingSpaces = 0; }
-    return "" + __spreadArray(__spreadArray(['/**'], input.map(function (line) { return ' * '.concat(line); }), true), [' */'], false).map(function (line) { return "" + ' '.repeat(leadingSpaces) + line; }) //add spaces to beginning of each line
+    return "" + __spreadArray(__spreadArray(['/**'], input.map(function (line) { return ' * '.concat(line); }), true), [' */'], false).map(function (line) { return "" + '\t'.repeat(leadingSpaces) + line; }) //add spaces to beginning of each line
         .join('\n');
 }; //convert array to one string with new lines between each element
 /**
