@@ -1,0 +1,113 @@
+lockfileVersion: 5.3
+
+specifiers:
+  lehre: ^1.4.0
+  typescript: ^4.5.0-dev.20210813
+  yarpm: ^1.1.1
+
+dependencies:
+  lehre: 1.4.0
+  typescript: 4.5.0-dev.20210813
+  yarpm: 1.1.1
+
+packages:
+
+  /@babel/helper-validator-identifier/7.14.9:
+    resolution: {integrity: sha512-pQYxPY0UP6IHISRitNe8bsijHex4TWZXi2HwKVsjPiltzlhse2znVcm9Ace510VT1kxIHjGJCZZQBX2gJDbo0g==}
+    engines: {node: '>=6.9.0'}
+    dev: false
+
+  /@babel/parser/7.14.4:
+    resolution: {integrity: sha512-ArliyUsWDUqEGfWcmzpGUzNfLxTdTp6WU4IuP6QFSp9gGfWS6boxFCkJSJ/L4+RG8z/FnIU3WxCk6hPL9SSWeA==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+    dev: false
+
+  /@babel/types/7.14.4:
+    resolution: {integrity: sha512-lCj4aIs0xUefJFQnwwQv2Bxg7Omd6bgquZ6LGC+gGMh6/s5qDVfjuCMlDmYQ15SLsWHd9n+X3E75lKIhl5Lkiw==}
+    dependencies:
+      '@babel/helper-validator-identifier': 7.14.9
+      to-fast-properties: 2.0.0
+    dev: false
+
+  /command-exists/1.2.9:
+    resolution: {integrity: sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==}
+    dev: false
+
+  /commander/7.2.0:
+    resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
+    engines: {node: '>= 10'}
+    dev: false
+
+  /cross-spawn/7.0.3:
+    resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
+    engines: {node: '>= 8'}
+    dependencies:
+      path-key: 3.1.1
+      shebang-command: 2.0.0
+      which: 2.0.2
+    dev: false
+
+  /isexe/2.0.0:
+    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
+    dev: false
+
+  /lehre/1.4.0:
+    resolution: {integrity: sha512-rl3889x6Ml9JrA6B0ZqF5XoCxS6gIkiXf79uKArvqFvGbO5mvyPhiwxCIHV+Jxp3g7ANUmXOYZyzUPZEeJpARQ==}
+    hasBin: true
+    dependencies:
+      '@babel/parser': 7.14.4
+      '@babel/types': 7.14.4
+      commander: 7.2.0
+      typescript: 4.3.2
+    dev: false
+
+  /path-key/3.1.1:
+    resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==}
+    engines: {node: '>=8'}
+    dev: false
+
+  /shebang-command/2.0.0:
+    resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
+    engines: {node: '>=8'}
+    dependencies:
+      shebang-regex: 3.0.0
+    dev: false
+
+  /shebang-regex/3.0.0:
+    resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
+    engines: {node: '>=8'}
+    dev: false
+
+  /to-fast-properties/2.0.0:
+    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
+    engines: {node: '>=4'}
+    dev: false
+
+  /typescript/4.3.2:
+    resolution: {integrity: sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /typescript/4.5.0-dev.20210813:
+    resolution: {integrity: sha512-c51mAthgxspw92aITqagsqjgO2wxxUq52YfR94F+CHhDyeahZEEHbHxh3X15ct2Dv8QdG5rSRHy4tt+I0x5ltw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /which/2.0.2:
+    resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
+    engines: {node: '>= 8'}
+    hasBin: true
+    dependencies:
+      isexe: 2.0.0
+    dev: false
+
+  /yarpm/1.1.1:
+    resolution: {integrity: sha512-A3gVdtyld+gYcVmKScvJqS2oT/i9xdsb/SqDsY9c0+BeYdYBUJrRfr4pD7UP+5uXEneJ0BL0rC/6rd1fnlYEcg==}
+    hasBin: true
+    dependencies:
+      command-exists: 1.2.9
+      cross-spawn: 7.0.3
+    dev: false
